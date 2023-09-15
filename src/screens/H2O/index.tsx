@@ -1,10 +1,10 @@
-import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import React from 'react';
+import { StyleSheet, View, Text } from 'react-native';
 
-export default function TabOne() {
+export default function H2O() {
     return (
       <View style={styles.container}>
-        <Text>TabOne</Text>
+        <Text>H2O</Text>
       </View>
     );
   }
