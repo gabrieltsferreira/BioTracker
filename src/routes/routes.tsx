@@ -24,12 +24,13 @@ function Routes() {
                         size={size} 
                       />
             }
-            else
+            else {
               return <Ionicons 
                         name='home-outline'  
                         color={color} 
                         size={size} 
                       />
+            }
           }
         }} 
       />

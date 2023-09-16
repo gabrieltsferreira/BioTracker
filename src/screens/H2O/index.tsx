@@ -1,10 +1,14 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
+import CircleProgressDisplay from '../../components/general/CircleProgressDisplay';
 
 export default function H2O() {
     return (
       <View style={styles.container}>
-        <Text>H2O</Text>
+        <Text style={styles.title}>
+          Water Intake
+        </Text>
+        <CircleProgressDisplay progress={30}/>
       </View>
     );
   }
@@ -16,4 +20,8 @@ export default function H2O() {
       alignItems: 'center',
       justifyContent: 'center',
     },
+    title: {
+      fontSize: 30,
+      padding: 20
+    }
   });
